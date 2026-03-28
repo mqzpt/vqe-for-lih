@@ -1,0 +1,22 @@
+[project]
+name = "vqe-for-lih"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.1",
+    "pyscf>=2.12.1",
+    "python-dotenv>=1.2.2",
+    "qiskit-aer>=0.17.2",
+    "qiskit-algorithms>=0.4.0",
+    "qiskit-ibm-runtime>=0.46.1",
+    "qiskit-nature>=0.7.2",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.6",
+]
